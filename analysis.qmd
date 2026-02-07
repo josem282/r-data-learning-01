@@ -1,0 +1,50 @@
+---
+title: "Exploratory Analysis of mtcars"
+format: html
+---
+
+## Context
+
+This is a small exploratory analysis using the `mtcars` dataset.
+The goal is not to build a model, but to practice data exploration
+and interpretation.
+
+## Load data
+```{r}
+data(mtcars)
+head(mtcars)
+```
+
+## Basic summary
+```{r}
+summary(mtcars)
+```
+
+## Distribution of miles per gallon (mpg)
+```{r}
+hist(
+  mtcars$mpg,
+  main = "Distribution of MPG",
+  xlab = "Miles per Gallon"
+)
+```
+
+## Relationship between weight and mpg
+```{r}
+plot(
+  mtcars$wt,
+  mtcars$mpg,
+  xlab = "Weight",
+  ylab = "MPG",
+  main = "MPG vs Weight"
+) 
+```
+
+
+## Notes
+
+- There seems to be a negative relationship between weight and MPG.
+
+- This is a very small dataset.
+
+- Further analysis would require assumptions and validation.
