@@ -1,4 +1,3 @@
-```markdown
 # R Data Learning – Project 01
 
 This repository contains a small exploratory data analysis using R.
@@ -13,3 +12,4 @@ Practice exploratory data analysis and interpretation.
 ## Notes
 This is a learning project. The focus is on understanding the data,
 not on building predictive models.
+
